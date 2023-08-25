@@ -53,3 +53,7 @@ function keyPressed() {
   if (key == "s" || key == "S")
     saveCanvas(y + "_" + m + "_" + d + "_Gen_Art", "png");
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
